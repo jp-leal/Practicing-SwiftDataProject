@@ -11,6 +11,8 @@
 		2FC08D162C5A9D5B00819A91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC08D152C5A9D5B00819A91 /* ContentView.swift */; };
 		2FC08D182C5A9D5C00819A91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC08D172C5A9D5C00819A91 /* Assets.xcassets */; };
 		2FC08D1B2C5A9D5C00819A91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC08D1A2C5A9D5C00819A91 /* Preview Assets.xcassets */; };
+		2FC08D222C5A9DC000819A91 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC08D212C5A9DC000819A91 /* User.swift */; };
+		2FC08D242C5A9E3500819A91 /* EditUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC08D232C5A9E3500819A91 /* EditUserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		2FC08D152C5A9D5B00819A91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2FC08D172C5A9D5C00819A91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FC08D1A2C5A9D5C00819A91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2FC08D212C5A9DC000819A91 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2FC08D232C5A9E3500819A91 /* EditUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				2FC08D132C5A9D5B00819A91 /* SwiftDataProjectApp.swift */,
+				2FC08D212C5A9DC000819A91 /* User.swift */,
+				2FC08D232C5A9E3500819A91 /* EditUserView.swift */,
 				2FC08D152C5A9D5B00819A91 /* ContentView.swift */,
 				2FC08D172C5A9D5C00819A91 /* Assets.xcassets */,
 				2FC08D192C5A9D5C00819A91 /* Preview Content */,
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FC08D162C5A9D5B00819A91 /* ContentView.swift in Sources */,
+				2FC08D242C5A9E3500819A91 /* EditUserView.swift in Sources */,
 				2FC08D142C5A9D5B00819A91 /* SwiftDataProjectApp.swift in Sources */,
+				2FC08D222C5A9DC000819A91 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
